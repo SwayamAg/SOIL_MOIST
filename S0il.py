@@ -1,15 +1,16 @@
-import pandas as pd
-import numpy as np
 import json
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 import joblib
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.preprocessing import MinMaxScaler, LabelEncoder
-from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
-from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report, f1_score, precision_score, recall_score
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
 import xgboost as xgb
-from imblearn.over_sampling import SMOTE
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report, f1_score, \
+    precision_score, recall_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 
 # Load dataset
 file_path = "UP_Soil_Moisture_Crop_Data.csv"
