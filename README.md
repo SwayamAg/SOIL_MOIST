@@ -27,7 +27,7 @@ SMART_SOIL is a machine learning-based analysis model for predicting **soil mois
 1. **Data Preprocessing:** Extract latitude & longitude, clean data
 2. **Feature Engineering:** Compute NDVI, NDWI for better predictions
 3. **Exploratory Data Analysis (EDA):** Identify correlations and visualize data
-4. **Model Training:** Train models for soil moisture prediction and crop classification
+4. **Model Training (🚧 Work in Progress)** 🚀
 5. **Evaluation:** Measure accuracy using RMSE (for regression) and F1-score (for classification)
 
 ## ❗ Challenges & Limitations
